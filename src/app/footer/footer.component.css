@@ -1,0 +1,113 @@
+.ftco-footer {
+    font-size: 16px;
+    background: #030918;
+    padding: 5em 0 0 0;
+    z-index: 0;
+    position: relative;
+    z-index: 0;
+  }
+  @media (max-width: 991.98px) {
+    .ftco-footer .ftco-footer-widget {
+      margin-bottom: 40px;
+    }
+  }
+  .ftco-footer .ftco-footer-widget ul {
+    margin: 0;
+    padding: 0;
+  }
+  .ftco-footer .ftco-footer-widget ul li {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .ftco-footer .ftco-footer-widget ul li a {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .ftco-footer .ftco-footer-widget ul li a span {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+  }
+  .ftco-footer .ftco-footer-widget ul li a:hover {
+    color: #fc5e28;
+  }
+  .ftco-footer p {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .ftco-footer .ftco-heading-2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+  .ftco-footer .logo a {
+    color: #fc5e28;
+  }
+  .ftco-footer .logo a span.flaticon {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .ftco-footer .bg-primary {
+    background: #030918 !important;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+  .ftco-footer .bg-primary p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .ftco-footer .bg-primary p a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .ftco-footer .bg-primary .aside-stretch {
+    background-color: #fc5e28;
+  }
+  .ftco-footer .bg-primary .aside-stretch:after {
+    background-color: #fc5e28;
+  }
+  .ftco-footer .bg-primary .aside-stretch:before {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    content: '';
+    width: 100px;
+    height: 100%;
+    background: #fc5e28;
+    -webkit-transform: matrix(1, 0, 0.9, 1, 150, 0);
+    -ms-transform: matrix(1, 0, 0.9, 1, 150, 0);
+    transform: matrix(1, 0, 0.9, 1, 150, 0);
+    z-index: -1;
+  }
+  @media (max-width: 767.98px) {
+    .ftco-footer .bg-primary .aside-stretch:before {
+      display: none;
+    }
+  }
+  
+  .ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+  }
+  .ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: rgba(255, 255, 255, 0.08);
+    position: relative;
+    border-radius: 50%;
+  }
+  .ftco-footer-social li a span {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff !important;
+  }
+  .ftco-footer-social li a:hover {
+    background: #fc5e28;
+  }

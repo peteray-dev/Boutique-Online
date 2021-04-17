@@ -1,0 +1,50 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Login Your Account</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <div class="input-group">
+            <!-- <input id="dateOfBirth" class="form-control" placeholder="yyyy-mm-dd" name="dp" ngbDatepicker #dp="ngbDatepicker"> -->
+        
+               
+                <div class="modal-body">
+                <form action="#" class="appointment-form ftco-animate">
+                <div class="">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" class="mr-2" />Always log me in
+                  </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login" class="btn btn-primary " (click)="modal.close('Save click')">
+                    </div>
+                </form>
+                </div>
+                
+          </div>
+        </div>
+      </form>
+    </div>
+  
+  </ng-template>
+  
+  <button class="btn btn-primary custom" (click)="open(content)">Login</button>
+
+
+
+  
+  
+  
+  
+  
+  

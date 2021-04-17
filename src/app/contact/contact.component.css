@@ -1,0 +1,93 @@
+.contact-us{
+background-image: linear-gradient(rgba(148, 143, 143, 0.6), rgba(148, 143, 143, 0.6)), url(/assets/images/email-pattern.png);
+
+}
+.contact-section .img {
+    width: 100%;
+    background-position: top center;
+  }
+  
+  .contact-section .contact-info p a {
+    color: #fff;
+  }
+  
+  .contact-section .contact-form {
+    width: 100%;
+    border-radius: 5px;
+    background: #f8f9fa;
+  }
+  @media (max-width: 767.98px) {
+    .contact-section .contact-form .btn-primary {
+      display: block;
+      width: 100%;
+    }
+  }
+  .contact-section .contact-form .form-control {
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+  }
+  .contact-section .contact-form .form-control {
+    height: 36px;
+    background: #fff !important;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    border-radius: 2px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+  }
+  .contact-section .contact-form .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .contact-section .contact-form .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .contact-section .contact-form .form-control:-ms-input-placeholder {
+    /* IE 0+ */
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .contact-section .contact-form .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .contact-section .contact-form .form-control:focus,
+  .contact-section .contact-form .form-control:active {
+    border-color: #fc5e28 !important;
+  }
+  .contact-section .contact-form textarea.form-control {
+    height: inherit !important;
+  }
+
+  .heading-section .subheading {
+    font-size: 35px;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+  }
+  
+  .heading-section h2 {
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .heading-section h2 span {
+    color: #fc5e28;
+  }
+  .heading-section h2 span.number {
+    color: #fc5e28;
+  }
+  @media (max-width: 767.98px) {
+    .heading-section h2 {
+      font-size: 28px;
+    }
+  }
+  
+ 
+  

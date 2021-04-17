@@ -1,0 +1,64 @@
+<navbar></navbar>
+
+<section
+  class="hero-wrap js-fullheight"
+  style="background-image: url('/assets/images/wear-show.jpeg')"
+  data-stellar-background-ratio="0.5"
+>
+  <div class="overlay"></div>
+  <div class="container">
+    <div
+      class="row no-gutters slider-text js-fullheight align-items-center"
+      data-scrollax-parent="true"
+    >
+      <div class="col-lg-6">
+        <div class="mt-5">
+          <h1 class="mb-4 text-white">We Sell <br />Only Qualities</h1>
+          <p class="mb-4 text-white">
+            Making a personality whose wear influences her society, irrespectievs of all odd,
+            Available clothings for Children, Men and Women with a classic offer
+          </p>
+          <p>
+            <a routerLink='/all-product' class="btn btn-primary" style="background-color: #fc5e28; border: none;">All Available Products</a>
+            <a
+              routerLink='/contact'
+              class="btn btn-white text-white"
+              style="color: #fc5e28;"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              >Contact Us</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="py-5 bg-light" >
+    <h2 class="text-center" style="color: #fc5e28; font-size: 40px;">Products</h2>
+    <div class="container" >
+    <div class="row ">
+        <div class="card col-md-3 " style="margin-left: 40px; margin-bottom: 10px;" *ngFor="let p of products">
+            <div >
+               <img [src]="p.imageurl" class="card-img" style="width:100%; height: 100%;"/> 
+            </div>
+    
+    <div class="card-body">
+      <h5 class="card-title">{{p.title}}</h5>
+      <p class="card-text">
+        {{p.price}}
+      </p>
+      
+    </div>
+  </div>
+    </div>
+</div>
+</section>
+
+<delivery></delivery>
+
+
+<footer></footer>

@@ -1,0 +1,114 @@
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Create an Account</h4>
+    <button
+      type="button"
+      class="close"
+      aria-label="Close"
+      (click)="modal.dismiss('Cross click')"
+    >
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <div class="input-group">
+          
+
+          <div class="modal-body">
+            <form action="#" class="appointment-form ftco-animate">
+              <div class="">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="password"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Phone"
+                  />
+                </div>
+                <div class="form-group">
+                  male<input type="radio" class="mx-2" name="gender" />
+                  Female<input type="radio" class="mx-2" name="gender" />
+                </div>
+              </div>
+              <div class="">
+                <div class="form-group">
+                  <div class="form-field">
+                    <div class="select-wrap">
+                      <!-- <div class="icon"><span class="fa fa-chevron-down"></span></div> -->
+                      <select name="" id="" class="form-control">
+                        Geo-Political Zone
+                        <option value="">Select Your Zone</option>
+                        <option value="">South-west</option>
+                        <option value="">South-South</option>
+                        <option value="">North Central</option>
+                        <option value="">North-East</option>
+                        <option value="">North-West</option>
+                        <option value="">South-East</option>
+                        <option value="">Other Zone</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="checkbox" class="mr-2" />Subscribe to our
+                Newsletter
+              </div>
+              <div class="">
+                <div class="form-group">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="4"
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="submit"
+                    value="Register"
+                    class="btn btn-primary"
+                    (click)="modal.close('Save click')"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</ng-template>
+
+<button class="btn btn-primary custom" (click)="open(content)">Register</button>

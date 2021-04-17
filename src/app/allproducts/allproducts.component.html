@@ -1,0 +1,48 @@
+<navbar></navbar>
+
+<div class="row justify-content-center mt-5 pb-3">
+  <div class="col-md-10 heading-section text-center">
+    <span class="subheading mt-5" style="color: #fc5e28; font-size: 40px"
+      >Our Product</span
+    >
+    <h2 class="mb-4">Latest product Updates</h2>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <productfilter></productfilter>
+    </div>
+
+    <div class="col">
+      <div class="row">
+        <div
+          class="card col-md-3 col-sm-3"
+          *ngFor="let p of products"
+          style="width: 15rem; margin-right: 70px; margin-bottom: 10px"
+        >
+          <div>
+            <img
+              [src]="p.imageurl"
+              class="card-img"
+              style="width: 100%; height: 100%"
+            />
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">{{ p.title }}</h5>
+            <p class="card-text">
+              {{ p.price }}
+            </p>
+          </div>
+          <div class="card-footer">
+            <button routerlink="#"  class="btn btn-primary btn-block">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer></footer>
